@@ -1,0 +1,6 @@
+file 'C:/Users/Priyanshu Raj/OneDrive - Manipal Academy of Higher Education/T.A. PAI/TLM PROJECT GROUP 4 SECTION D/video_production/scenes/act1.mp4'
+file 'C:/Users/Priyanshu Raj/OneDrive - Manipal Academy of Higher Education/T.A. PAI/TLM PROJECT GROUP 4 SECTION D/video_production/scenes/act2.mp4'
+file 'C:/Users/Priyanshu Raj/OneDrive - Manipal Academy of Higher Education/T.A. PAI/TLM PROJECT GROUP 4 SECTION D/video_production/scenes/act3.mp4'
+file 'C:/Users/Priyanshu Raj/OneDrive - Manipal Academy of Higher Education/T.A. PAI/TLM PROJECT GROUP 4 SECTION D/video_production/scenes/act4.mp4'
+file 'C:/Users/Priyanshu Raj/OneDrive - Manipal Academy of Higher Education/T.A. PAI/TLM PROJECT GROUP 4 SECTION D/video_production/scenes/act5.mp4'
+file 'C:/Users/Priyanshu Raj/OneDrive - Manipal Academy of Higher Education/T.A. PAI/TLM PROJECT GROUP 4 SECTION D/video_production/scenes/act6_credits.mp4'

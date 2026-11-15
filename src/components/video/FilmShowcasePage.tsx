@@ -569,6 +569,26 @@ export const FilmShowcasePage: React.FC = () => {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-xs">
+            <a
+              href="/FitBack_AI_Final_Video.mp4"
+              download="FitBack_AI_Final_Video.mp4"
+              className="p-4 rounded-2xl bg-brand-terracotta/20 border border-brand-terracotta/40 space-y-2 hover:bg-brand-terracotta/30 transition-all block group"
+            >
+              <div className="font-bold text-white flex items-center justify-between">
+                <span className="flex items-center gap-2">
+                  <Play className="w-4 h-4 text-[#E68A6E]" />
+                  <span>Master Film (.mp4)</span>
+                </span>
+                <Download className="w-4 h-4 text-white group-hover:translate-y-0.5 transition-transform" />
+              </div>
+              <p className="text-[11px] text-gray-300">
+                1080p Full HD master video (5m 21s) with Indian English neural narration.
+              </p>
+              <div className="text-[10px] text-brand-terracotta-light font-mono font-bold">
+                Download MP4 (9.2 MB) &rarr;
+              </div>
+            </a>
+
             <div className="p-4 rounded-2xl bg-white/5 border border-white/10 space-y-2">
               <div className="font-bold text-white flex items-center gap-2">
                 <FileText className="w-4 h-4 text-[#E68A6E]" />
