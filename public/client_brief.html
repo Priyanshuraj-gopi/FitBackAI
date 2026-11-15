@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitBack-AI — One-Page Client Brief | TAPMI TLM Group 4</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: #F1EDE5;
+      color: #242321;
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .page-container {
+      width: 100%;
+      max-width: 880px;
+      background: #FAF8F4;
+      border: 1px solid #E8E3DA;
+      box-shadow: 0 12px 40px rgba(36, 35, 33, 0.08);
+      border-radius: 20px;
+      overflow: hidden;
+      padding: 44px 48px;
+      position: relative;
+    }
+    .header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      border-bottom: 2px solid #E8E3DA;
+      padding-bottom: 20px;
+      margin-bottom: 26px;
+    }
+    .brand-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 32px;
+      font-weight: 700;
+      color: #242321;
+      letter-spacing: -0.5px;
+      line-height: 1.1;
+    }
+    .brand-tagline {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: #A85F48;
+      margin-top: 6px;
+    }
+    .meta-badge {
+      text-align: right;
+      font-size: 11px;
+      color: #77736C;
+      line-height: 1.5;
+    }
+    .meta-badge strong {
+      color: #242321;
+    }
+    .badge-pill {
+      display: inline-block;
+      background: #242321;
+      color: #FFFFFF;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 999px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .section {
+      margin-bottom: 22px;
+    }
+    .section-label {
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #A85F48;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .section-label::before {
+      content: "";
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      background: #A85F48;
+      border-radius: 50%;
+    }
+    .section-heading {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 19px;
+      font-weight: 700;
+      color: #242321;
+      margin-bottom: 8px;
+    }
+    .section-body {
+      font-size: 13px;
+      line-height: 1.6;
+      color: #4A4641;
+    }
+
+    /* Cards */
+    .feature-card {
+      background: #FFFFFF;
+      border: 1px solid #E8E3DA;
+      border-radius: 14px;
+      padding: 16px 20px;
+      margin-top: 10px;
+    }
+    .how-it-works-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 14px;
+      margin-top: 10px;
+    }
+    .pillar-box {
+      background: #FFFFFF;
+      border: 1px solid #E8E3DA;
+      border-radius: 14px;
+      padding: 16px;
+    }
+    .pillar-title {
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-bottom: 6px;
+      color: #242321;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .pillar-1 .pillar-title { color: #A85F48; }
+    .pillar-2 .pillar-title { color: #2E5A44; }
+    .pillar-3 .pillar-title { color: #89947C; }
+    .pillar-desc {
+      font-size: 11.5px;
+      line-height: 1.55;
+      color: #5C5852;
+    }
+
+    .metrics-banner {
+      background: #242321;
+      color: #FFFFFF;
+      border-radius: 14px;
+      padding: 16px 20px;
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .metric-item {
+      text-align: left;
+    }
+    .metric-val {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 22px;
+      font-weight: 700;
+      color: #E68A6E;
+    }
+    .metric-lbl {
+      font-size: 10px;
+      color: #B5AFA6;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-top: 2px;
+    }
+
+    .safeguards-box {
+      background: #FAF3EF;
+      border: 1.5px solid #E3D1C8;
+      border-radius: 14px;
+      padding: 16px 20px;
+      margin-top: 8px;
+    }
+    .safeguard-title {
+      font-size: 12px;
+      font-weight: 800;
+      color: #A85F48;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-bottom: 4px;
+    }
+    .safeguard-body {
+      font-size: 12px;
+      line-height: 1.55;
+      color: #4A4641;
+    }
+
+    .footer-bar {
+      border-top: 1px solid #E8E3DA;
+      padding-top: 14px;
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 10.5px;
+      color: #8C877E;
+    }
+
+    @media print {
+      body { padding: 0; background: #FFF; }
+      .page-container { box-shadow: none; border: none; max-width: 100%; padding: 24px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page-container">
+    
+    <!-- HEADER -->
+    <div class="header-bar">
+      <div>
+        <h1 class="brand-title">FitBack-AI</h1>
+        <div class="brand-tagline">Prevent. Recover. Learn.</div>
+      </div>
+      <div class="meta-badge">
+        <div class="badge-pill">Client Brief</div>
+        <div><strong>Group 4</strong> • Customer Service</div>
+        <div>TLM Project • Section D • TAPMI Bengaluru</div>
+      </div>
+    </div>
+
+    <!-- 1. WHAT IT IS -->
+    <div class="section">
+      <div class="section-label">1. What It Is</div>
+      <div class="section-body">
+        <strong>FitBack-AI</strong> is an intelligent customer-service and fit-management agent for Indian D2C ethnic-wear brands that prevents avoidable sizing returns before purchase, recovers revenue through automated size exchanges, and continuously refines size charts using aggregated return feedback.
+      </div>
+    </div>
+
+    <!-- 2. THE PROBLEM AND ITS COST -->
+    <div class="section">
+      <div class="section-label">2. The Problem and Its Business Cost</div>
+      <div class="section-body">
+        Online ethnic-wear shoppers cannot physically try on garments, while non-stretch handloom fabrics (such as pure cambric cotton and chanderi silk) and inconsistent vanity sizing cause frequent upper-body tightness. Consequently, D2C fashion brands suffer 20% to 35% return rates, bleeding an estimated <strong>₹250 to ₹350 in forward shipping, reverse courier pickup, quality inspection, and inventory markdown</strong> for every returned unit. For a growing retailer processing 1,000 monthly orders, this causes ₹25,000 to ₹35,000 in monthly direct operating loss plus permanent customer churn.
+      </div>
+      
+      <div class="metrics-banner">
+        <div class="metric-item">
+          <div class="metric-val">25% – 35%</div>
+          <div class="metric-lbl">Industry Return Rate</div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-val">₹250+</div>
+          <div class="metric-lbl">Loss Per Return</div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-val">30%</div>
+          <div class="metric-lbl">Avoidable Returns Prevented</div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-val">₹30,000</div>
+          <div class="metric-lbl">GMV Retained / Mo via Exchanges</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. HOW THE AGENT WORKS -->
+    <div class="section">
+      <div class="section-label">3. How the Agent Works (Knowledge • Systems • Actions)</div>
+      
+      <div class="how-it-works-grid">
+        <div class="pillar-box pillar-1">
+          <div class="pillar-title">1. What It Knows (RAG)</div>
+          <div class="pillar-desc">
+            Retrieves grounded knowledge from garment flat-table specification sheets (bust/waist/hip cm), fabric elasticity guidelines (0% elastane cambric rules), ISO 8559 anthropometric comfort allowances, and brand return policies.
+          </div>
+        </div>
+
+        <div class="pillar-box pillar-2">
+          <div class="pillar-title">2. What It Connects To (MCP)</div>
+          <div class="pillar-desc">
+            Connects seamlessly through Model Context Protocol (MCP) tool integrations to Customer CRM (consent & measurements), Order Management (OMS), warehouse inventory stock, and logistics dispatch (BlueDart pickup).
+          </div>
+        </div>
+
+        <div class="pillar-box pillar-3">
+          <div class="pillar-title">3. What It Does (Actions)</div>
+          <div class="pillar-desc">
+            Mathematically compares body measurements with garment flat specs to recommend sizes with 94% confidence, provisions 1-click doorstep size replacements, and clusters return reasons to recommend size-chart corrections.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. SAFEGUARDS AND LIMITS -->
+    <div class="section" style="margin-bottom: 0;">
+      <div class="section-label">4. Safeguards and Responsible AI Limits</div>
+      <div class="safeguards-box">
+        <div class="safeguard-title">Human-in-the-Loop Governance & Consumer Choice Invariants</div>
+        <div class="safeguard-body">
+          FitBack-AI recommendations are strictly advisory and never restrict a customer’s unconditional right to select a full refund under the 14-day policy. Furthermore, <strong>the AI is architecturally prohibited from automatically publishing size-chart changes</strong>; every pattern revision must be verified and authorized by a human pattern master (Quality Manager).
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer-bar">
+      <div>Technology Literacy for Managers (TLM) • BBA (Hons.) • Semester 1</div>
+      <div>Prototype: Live React 19 + TypeScript • Standard: ISO 8559 Anthropometric Ease</div>
+    </div>
+
+  </div>
+
+</body>
+</html>
