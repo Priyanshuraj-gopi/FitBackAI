@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" style="background:#FAF8F4; font-family:'Plus Jakarta Sans', system-ui, sans-serif;">
+  <defs>
+    <linearGradient id="mcpBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF8F4"/>
+      <stop offset="100%" stop-color="#F1EDE5"/>
+    </linearGradient>
+    <filter id="mcpShadow" x="-5%" y="-5%" width="110%" height="115%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#242321" flood-opacity="0.09"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#mcpBg)"/>
+
+  <!-- Top Header Bar -->
+  <rect x="80" y="50" width="1760" height="100" rx="20" fill="#242321" filter="url(#mcpShadow)"/>
+  <text x="120" y="105" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="bold" fill="#FAF8F4">MODEL CONTEXT PROTOCOL (MCP): CONNECTING AI TO ENTERPRISE SYSTEMS</text>
+  <text x="120" y="132" font-size="16" font-weight="500" fill="#B2C4A2" letter-spacing="2">STANDARDIZED ACTION &amp; TOOL ORCHESTRATION ARCHITECTURE</text>
+  <rect x="1560" y="80" width="240" height="40" rx="10" fill="#2E5A44"/>
+  <text x="1680" y="105" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">WORKING PROTOTYPE + SIMULATED TOOLS</text>
+
+  <!-- Connecting Bus Lines from Agent Center to Peripherals -->
+  <g stroke="#A85F48" stroke-width="3" stroke-dasharray="6 6" opacity="0.6">
+    <line x1="960" y1="520" x2="350" y2="280"/>
+    <line x1="960" y1="520" x2="350" y2="520"/>
+    <line x1="960" y1="520" x2="350" y2="760"/>
+    <line x1="960" y1="520" x2="1570" y2="280"/>
+    <line x1="960" y1="520" x2="1570" y2="520"/>
+    <line x1="960" y1="520" x2="1570" y2="760"/>
+  </g>
+
+  <!-- CENTER CORE: FitBack-AI Agent Orchestration Hub -->
+  <g transform="translate(760, 360)">
+    <rect width="400" height="320" rx="32" fill="#242321" filter="url(#mcpShadow)" stroke="#A85F48" stroke-width="4"/>
+    <circle cx="200" cy="80" r="44" fill="#A85F48"/>
+    <text x="200" y="90" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="bold" fill="#FFFFFF" text-anchor="middle">F</text>
+    
+    <text x="200" y="160" font-family="'Playfair Display', Georgia, serif" font-size="26" font-weight="bold" fill="#FFFFFF" text-anchor="middle">FitBack-AI Agent</text>
+    <text x="200" y="188" font-size="13" font-weight="bold" fill="#E68A6E" text-anchor="middle">MCP CLIENT / TOOL ROUTER</text>
+
+    <rect x="30" y="210" width="340" height="80" rx="16" fill="#FFFFFF" fill-opacity="0.08"/>
+    <text x="200" y="238" font-size="12" fill="#FAF8F4" text-anchor="middle">JSON-RPC 2.0 Protocol Transceiver</text>
+    <text x="200" y="262" font-size="11" fill="#89947C" text-anchor="middle">Schema Validation • Safe Action Boundaries</text>
+  </g>
+
+  <!-- SYSTEM 1 (Top Left): CRM & Customer Profile -->
+  <g transform="translate(180, 200)">
+    <rect width="360" height="170" rx="20" fill="#FFFFFF" stroke="#E8E3DA" stroke-width="2" filter="url(#mcpShadow)"/>
+    <rect x="20" y="20" width="10" height="130" rx="5" fill="#A85F48"/>
+    <text x="44" y="50" font-size="18" font-weight="bold" fill="#242321">1. Customer CRM</text>
+    <text x="44" y="74" font-size="13" fill="#77736C">Stores encrypted measurements &amp; consent</text>
+    <rect x="44" y="94" width="290" height="42" rx="8" fill="#FAF8F4" stroke="#E8E3DA"/>
+    <text x="56" y="120" font-family="monospace" font-size="11" font-weight="bold" fill="#A85F48">get_customer_profile(cust_id)</text>
+  </g>
+
+  <!-- SYSTEM 2 (Middle Left): Order Management System (OMS) -->
+  <g transform="translate(180, 440)">
+    <rect width="360" height="170" rx="20" fill="#FFFFFF" stroke="#E8E3DA" stroke-width="2" filter="url(#mcpShadow)"/>
+    <rect x="20" y="20" width="10" height="130" rx="5" fill="#2E5A44"/>
+    <text x="44" y="50" font-size="18" font-weight="bold" fill="#242321">2. Order Management (OMS)</text>
+    <text x="44" y="74" font-size="13" fill="#77736C">Tracks order dates, items, delivery AWB</text>
+    <rect x="44" y="94" width="290" height="42" rx="8" fill="#FAF8F4" stroke="#E8E3DA"/>
+    <text x="56" y="120" font-family="monospace" font-size="11" font-weight="bold" fill="#2E5A44">get_order_details(order_id)</text>
+  </g>
+
+  <!-- SYSTEM 3 (Bottom Left): Warehouse Inventory -->
+  <g transform="translate(180, 680)">
+    <rect width="360" height="170" rx="20" fill="#FFFFFF" stroke="#E8E3DA" stroke-width="2" filter="url(#mcpShadow)"/>
+    <rect x="20" y="20" width="10" height="130" rx="5" fill="#C27803"/>
+    <text x="44" y="50" font-size="18" font-weight="bold" fill="#242321">3. Warehouse Inventory</text>
+    <text x="44" y="74" font-size="13" fill="#77736C">Real-time SKU &amp; size availability</text>
+    <rect x="44" y="94" width="290" height="42" rx="8" fill="#FAF8F4" stroke="#E8E3DA"/>
+    <text x="56" y="120" font-family="monospace" font-size="11" font-weight="bold" fill="#C27803">check_inventory(sku, size)</text>
+  </g>
+
+  <!-- SYSTEM 4 (Top Right): Reverse Logistics & Courier Partner -->
+  <g transform="translate(1380, 200)">
+    <rect width="360" height="170" rx="20" fill="#FFFFFF" stroke="#E8E3DA" stroke-width="2" filter="url(#mcpShadow)"/>
+    <rect x="20" y="20" width="10" height="130" rx="5" fill="#89947C"/>
+    <text x="44" y="50" font-size="18" font-weight="bold" fill="#242321">4. Reverse Logistics</text>
+    <text x="44" y="74" font-size="13" fill="#77736C">BlueDart doorstep exchange pickup</text>
+    <rect x="44" y="94" width="290" height="42" rx="8" fill="#FAF8F4" stroke="#E8E3DA"/>
+    <text x="56" y="120" font-family="monospace" font-size="11" font-weight="bold" fill="#2E5A44">create_exchange_request(...)</text>
+  </g>
+
+  <!-- SYSTEM 5 (Middle Right): Return Feedback Telemetry -->
+  <g transform="translate(1380, 440)">
+    <rect width="360" height="170" rx="20" fill="#FFFFFF" stroke="#E8E3DA" stroke-width="2" filter="url(#mcpShadow)"/>
+    <rect x="20" y="20" width="10" height="130" rx="5" fill="#682835"/>
+    <text x="44" y="50" font-size="18" font-weight="bold" fill="#242321">5. Return Telemetry</text>
+    <text x="44" y="74" font-size="13" fill="#77736C">Granular fit complaint ingestion</text>
+    <rect x="44" y="94" width="290" height="42" rx="8" fill="#FAF8F4" stroke="#E8E3DA"/>
+    <text x="56" y="120" font-family="monospace" font-size="11" font-weight="bold" fill="#682835">record_return_reason(...)</text>
+  </g>
+
+  <!-- SYSTEM 6 (Bottom Right): Sizing Intelligence & Pattern Proposals -->
+  <g transform="translate(1380, 680)">
+    <rect width="360" height="170" rx="20" fill="#FFFFFF" stroke="#E8E3DA" stroke-width="2" filter="url(#mcpShadow)"/>
+    <rect x="20" y="20" width="10" height="130" rx="5" fill="#A85F48"/>
+    <text x="44" y="50" font-size="18" font-weight="bold" fill="#242321">6. Sizing Engine (Human-Gated)</text>
+    <text x="44" y="74" font-size="13" fill="#77736C">Proposes size-chart draft corrections</text>
+    <rect x="44" y="94" width="290" height="42" rx="8" fill="#FAF8F4" stroke="#E8E3DA"/>
+    <text x="56" y="120" font-family="monospace" font-size="11" font-weight="bold" fill="#A85F48">propose_size_chart_correction()</text>
+  </g>
+
+  <!-- Bottom Distinction Banner -->
+  <rect x="80" y="920" width="1760" height="110" rx="20" fill="#FAF8F4" stroke="#E8E3DA" stroke-width="2"/>
+  <text x="120" y="960" font-size="15" font-weight="bold" fill="#242321">WHY MCP ELEVATES FITBACK-AI BEYOND A CHATBOT:</text>
+  <text x="120" y="990" font-size="13" fill="#77736C">
+    Traditional chatbots only output static text. Through Model Context Protocol (MCP), FitBack-AI securely queries warehouse inventory, verifies 14-day exchange eligibility, provisions BlueDart pickup manifests, and pipes verbatim return feedback into the pattern-master intelligence stream.
+  </text>
+</svg>

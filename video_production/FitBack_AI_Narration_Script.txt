@@ -1,0 +1,153 @@
+================================================================================
+FITBACK-AI: INTELLIGENT FASHION FIT RECOMMENDATIONS & RETURN MANAGEMENT
+MASTER NARRATION SCRIPT & SCENE DIRECTION
+Target Duration: 4 Minutes 40 Seconds (280 Seconds)
+Academic Showcase: Group 4 — Customer Service (TLM Section D)
+================================================================================
+
+[ACT 1 — THE PAIN]
+Timeline: 00:00 – 00:45 (Duration: 45s)
+Tone: Empathetic, Thoughtful, Relatable
+Visuals:
+  - 00:00 - 00:12: Cinematic slow-motion tracking shot of an Indian ethnic-wear studio. Warm ivory backdrop, intricate cotton embroidery.
+  - 00:12 - 00:24: Customer Priya browsing an ethnic-wear store on her mobile, hesitating between Size S, M, and L. She selects Size M.
+  - 00:24 - 00:35: Unboxing the courier parcel. Priya tries on the kurta; notice tension at shoulders and chest pulling awkwardly.
+  - 00:35 - 00:45: Disappointed expression. Customer initiates return request on phone. Courier pickup at door. Returned parcel entering a sorting warehouse.
+On-Screen Title:
+  "ONE WRONG SIZE. MULTIPLE BUSINESS COSTS."
+  Transition: "WHAT IF CUSTOMER SERVICE COULD PREDICT, ACT, AND LEARN?"
+
+Narration (Voice: Natural Indian English, Warm & Professional):
+"Online fashion shopping has made beautiful ethnic wear accessible to everyone. But one question still creates uncertainty: will the outfit actually fit?
+Priya finds a beautiful kurta, selects size M, and places her order.
+But when it arrives, the fit is uncomfortable. The shoulders and bust are too tight.
+She requests a return.
+For Priya, this is a disappointing experience. For the business, it means additional shipping costs, reverse logistics, inventory handling, and potentially selling the returned product again at a discount.
+Traditional customer service reacts after the problem happens.
+But what if we could prevent the wrong fit before the customer even places the order?"
+
+--------------------------------------------------------------------------------
+
+[ACT 2 — THE AGENT ARRIVES]
+Timeline: 00:45 – 01:45 (Duration: 60s)
+Tone: Optimistic, Dynamic, Confident
+Visuals:
+  - 00:45 - 00:55: Cinematic reveal of FitBack-AI brand logo. Clean typography (Playfair Display) with terracotta & warm ivory palette.
+  - 00:55 - 01:15: PREVENT: Priya exploring Ivory Floral Cotton Kurta (KRT-101). FitBack-AI chat assistant opens: "How do you prefer your kurtas to fit?" Numerical comparison against flat table specs (Size M: 92cm bust vs Size L: 98cm bust). Recommendation card: Size L recommended (+8cm ease) with 94% confidence.
+  - 01:15 - 01:32: RECOVER: Guided 5-Step Exchange Assistant. Instant order verification (#FW-2026-1042), live warehouse inventory check (8 units of Size L in stock), 1-click doorstep exchange scheduled via BlueDart.
+  - 01:32 - 01:45: LEARN: Admin intelligence dashboard showing live feedback ingestion. Insight alert: "Upper-body tightness pattern detected on KRT-101."
+On-Screen Badge:
+  "PREVENT. RECOVER. LEARN."
+
+Narration:
+"Meet FitBack-AI, an intelligent customer-service agent designed to prevent, recover, and learn from fit-related returns.
+Before purchase, FitBack-AI understands the customer's fit preferences, retrieves the product's size chart, and compares available measurements.
+It provides a recommendation with an explanation, helping customers make more informed decisions.
+The customer remains free to choose another size.
+If a fit problem still occurs, FitBack-AI helps recover the customer experience.
+It checks the order, verifies the applicable policy, checks inventory, and offers an eligible exchange.
+With the customer's permission, it can initiate the appropriate workflow.
+The objective is to retain the sale wherever possible while respecting the customer's choice.
+Finally, FitBack-AI learns from every return.
+It identifies recurring product-level fit problems and prepares useful insights for the brand's quality team."
+
+--------------------------------------------------------------------------------
+
+[ACT 3 — UNDER THE HOOD]
+Timeline: 01:45 – 02:45 (Duration: 60s)
+Tone: Informative, Analytical, Clear
+Visuals:
+  - 01:45 - 02:15: PART A: RAG ARCHITECTURE DIAGRAM (RETRIEVE BEFORE YOU RESPOND).
+    Animated diagram:
+    Knowledge Sources (Product Specs, Fabric Guides, Brand Policies, Reviews) -> Document Chunker & Embeddings -> Vector Database.
+    Customer Query ("Will this cotton kurta feel restrictive?") -> Semantic Vector Search -> Grounded LLM Response with verifiable citations.
+  - 02:15 - 02:45: PART B: MCP ARCHITECTURE DIAGRAM (CONNECTING AI TO BUSINESS SYSTEMS).
+    Central FitBack-AI Orchestration Engine connected via standardized Model Context Protocol tools:
+    CRM Customer Profile, OMS Order Tracking, Warehouse Inventory, Logistics API, Return Analytics, and Size Engine.
+On-Screen Label:
+  "WORKING PROTOTYPE + SIMULATED INTEGRATIONS"
+
+Narration:
+"FitBack-AI uses Retrieval-Augmented Generation, also known as RAG.
+RAG allows the agent to search the brand's own documents before generating an answer.
+These documents include product catalogues, size charts, fabric descriptions, customer feedback, and return policies.
+When Priya asks which size she should choose, the agent retrieves the relevant information and uses it to provide a more grounded recommendation.
+This reduces reliance on unsupported guesses.
+RAG helps FitBack-AI retrieve the right knowledge. MCP helps it connect with the business systems needed to take action.
+Through standardised tool connections, the agent can check orders, retrieve inventory information, verify exchange policies, and initiate permitted workflows.
+This is what makes it an AI agent rather than simply a chatbot.
+Some integrations in this prototype may be simulated using sample data. These must be clearly labelled as simulated rather than presented as live production connections."
+
+--------------------------------------------------------------------------------
+
+[ACT 4 — SOMETHING GOES WRONG]
+Timeline: 02:45 – 03:30 (Duration: 45s)
+Tone: Serious, Thoughtful, Principled
+Visuals:
+  - 02:45 - 03:00: Return Analytics breakdown of 100 historical returns for KRT-101.
+    40 Shoulders tight, 30 Bust tight (70% upper body constriction).
+  - 03:00 - 03:15: System anomaly alert: AI generates automated size-chart correction proposal.
+    Error Highlight: The automated agent confuses flat garment measurements with body circumference and fit ease allowances.
+    Banner: "DRAFT — HUMAN REVIEW REQUIRED".
+  - 03:15 - 03:30: Human Quality Manager Sunil Mehta audits the proposal on the dashboard. He identifies the false pattern assumption and clicks "REJECT".
+    Audit Log stamp: "CHANGE REJECTED — NOT PUBLISHED. Production size chart protected."
+On-Screen Callout:
+  "AI ASSISTS. HUMANS REMAIN IN CONTROL."
+
+Narration:
+"But AI systems are not perfect.
+While analysing sample return records, FitBack-AI identifies a pattern of upper-body fit complaints and proposes a size-chart correction.
+However, the agent makes an incorrect assumption about the measurements.
+A human quality manager reviews the underlying information, catches the issue, and rejects the proposed change.
+FitBack-AI never automatically publishes production size-chart changes.
+It supports human decisions. It does not replace human accountability."
+
+--------------------------------------------------------------------------------
+
+[ACT 5 — THE NEW NORMAL]
+Timeline: 03:30 – 04:10 (Duration: 40s)
+Tone: Inspiring, Impactful, Forward-Looking
+Visuals:
+  - 03:30 - 03:45: Priya back on the storefront. She uses FitBack-AI, receives a transparent Size L recommendation with ease breakdown, and purchases with confidence.
+  - 03:45 - 04:00: Before vs After Matrix and Financial Model Animation:
+    1,000 monthly orders | 200 returns | 100 size-related | ₹250 cost/return.
+    Animated Formula:
+      30 Prevented Returns × ₹250 = ₹7,500 Direct Logistics Savings/month.
+      20 Retained Exchanges × ₹1,500 AOV = ₹30,000 Gross Order Value Retained/month.
+    On-Screen Disclosure:
+      "ILLUSTRATIVE BUSINESS ESTIMATES — NOT MEASURED RESULTS. Gross order value is revenue retained, not net profit."
+  - 04:00 - 04:10: Final cinematic product showcase. FitBack-AI logo lockup with terracotta & ivory theme.
+On-Screen Title:
+  "FITBACK-AI"
+  "PREVENT. RECOVER. LEARN."
+  "Better fit decisions. Better customer experiences. Smarter fashion businesses."
+
+Narration:
+"With FitBack-AI, customers make more informed size decisions, while businesses gain better visibility into fit-related problems.
+Consider an illustrative scenario.
+If 30 size-related returns could be prevented, at an estimated logistics and handling cost of ₹250 per return, the business could save ₹7,500.
+If another 20 exchanges help retain orders with an average order value of ₹1,500, that represents ₹30,000 in gross order value retained.
+These figures are illustrative estimates, not measured results.
+The bigger opportunity is continuous improvement: prevent the wrong fit, recover the sale, and learn from every return."
+
+--------------------------------------------------------------------------------
+
+[ACT 6 — CREDITS & ACADEMIC AUDIT]
+Timeline: 04:10 – 04:40 (Duration: 30s)
+Tone: Elegant, Scholarly, Transparent
+Visuals:
+  - Clean scrolling editorial typography on dark charcoal background.
+  - Academic Affiliation: T.A. PAI / MAHE • AI Studio Showcase • Group 4 — Customer Service.
+  - Tool Disclosure:
+      • Antigravity IDE — Agent Orchestration, Full-Stack Architecture, Code Synthesis
+      • Microsoft Edge Neural TTS — Natural Indian English Voice Narration (en-IN-NeerjaNeural)
+      • React 19 + TypeScript + Vite + Tailwind CSS — Interactive Platform & Showcase Engine
+      • Recharts — Real-time Business Analytics & Return Telemetry
+      • FFmpeg — Video & Audio Assembly Engine
+  - Fictional Data Disclosure:
+      • "All customer names, measurements, orders, and telemetry records are purely fictional."
+  - Smooth fade to black.
+
+Narration:
+[Instrumental outro music fades softly to 04:40]
+================================================================================

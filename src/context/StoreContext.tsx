@@ -34,8 +34,8 @@ interface StoreContextType {
   // Navigation & View Mode
   appMode: 'customer' | 'admin';
   setAppMode: (mode: 'customer' | 'admin') => void;
-  customerTab: 'home' | 'shop' | 'product' | 'cart' | 'orders' | 'profile' | 'fit-assistant';
-  setCustomerTab: (tab: 'home' | 'shop' | 'product' | 'cart' | 'orders' | 'profile' | 'fit-assistant') => void;
+  customerTab: 'home' | 'shop' | 'product' | 'cart' | 'orders' | 'profile' | 'fit-assistant' | 'film';
+  setCustomerTab: (tab: 'home' | 'shop' | 'product' | 'cart' | 'orders' | 'profile' | 'fit-assistant' | 'film') => void;
   adminTab: 'overview' | 'analytics' | 'insights' | 'size-intelligence' | 'knowledge' | 'calculator';
   setAdminTab: (tab: 'overview' | 'analytics' | 'insights' | 'size-intelligence' | 'knowledge' | 'calculator') => void;
   selectedProductId: string;
@@ -99,7 +99,7 @@ const StoreContext = createContext<StoreContextType | undefined>(undefined);
 export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   // Load initial state with localStorage fallback
   const [appMode, setAppMode] = useState<'customer' | 'admin'>('customer');
-  const [customerTab, setCustomerTab] = useState<'home' | 'shop' | 'product' | 'cart' | 'orders' | 'profile' | 'fit-assistant'>('home');
+  const [customerTab, setCustomerTab] = useState<'home' | 'shop' | 'product' | 'cart' | 'orders' | 'profile' | 'fit-assistant' | 'film'>('home');
   const [adminTab, setAdminTab] = useState<'overview' | 'analytics' | 'insights' | 'size-intelligence' | 'knowledge' | 'calculator'>('overview');
   const [selectedProductId, setSelectedProductId] = useState<string>('prod-101');
   const [isChatOpen, setIsChatOpen] = useState<boolean>(false);

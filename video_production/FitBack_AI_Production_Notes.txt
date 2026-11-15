@@ -1,0 +1,76 @@
+================================================================================
+FITBACK-AI SHOWCASE FILM — PRODUCTION NOTES & ACADEMIC AUDIT RECORD
+College AI Studio Showcase • Group 4 — Customer Service (TLM Section D)
+================================================================================
+
+1. PROJECT IDENTIFICATION
+- Project Name: FitBack-AI
+- Subtitle: Intelligent Fashion Fit Recommendations & Return Management Platform
+- Tagline: PREVENT. RECOVER. LEARN.
+- Institution: T.A. PAI / Manipal Academy of Higher Education (MAHE)
+- Academic Topic: Group 4 — Customer Service AI Showcase
+
+2. VIDEO SPECIFICATIONS
+- Target Duration: 4 minutes 40 seconds (280 seconds)
+- Aspect Ratio: 16:9 Widescreen
+- Resolution: 1920 × 1080 (Full HD)
+- Frame Rate: 30 FPS
+- Video Codec: H.264 / MP4 (High Profile)
+- Audio Codec: AAC-LC Stereo, 48kHz, 192 kbps
+- Subtitle Format: SubRip (.srt), UTF-8 encoded with millisecond timing
+
+3. BRAND IDENTITY & DESIGN SYSTEM
+- Primary Palette:
+    • Warm Ivory: #FAF8F4
+    • Soft Beige: #F1EDE5
+    • Deep Charcoal: #242321
+    • Terracotta: #A85F48
+    • Muted Sage Green: #89947C
+    • Forest Green (Success): #2E5A44
+- Typography:
+    • Headlines & Cinematic Title Cards: Playfair Display (Serif)
+    • UI Labels, Technical Figures, Subtitles: Plus Jakarta Sans / Inter
+
+4. AUDIO DESIGN & VOICE-OVER CREDITS
+- Narrator: Neerja (Microsoft Edge Neural Text-to-Speech)
+- Voice ID: en-IN-NeerjaNeural
+- Accent: Natural Indian English (warm, engaging, documentary-style delivery)
+- Emotional Arc:
+    • Act 1 (The Pain): Empathetic, contemplative
+    • Act 2 (The Agent Arrives): Optimistic, energetic
+    • Act 3 (Under the Hood): Informative, precise
+    • Act 4 (Something Goes Wrong): Serious, analytical, human-governed
+    • Act 5 (The New Normal): Inspiring, forward-looking
+- Sound Design: Atmospheric acoustic piano, ambient synthesizer drones, digital telemetry clicks, BlueDart courier notification chimes.
+
+5. TECHNICAL ARCHITECTURE EXPLAINED
+- RAG (Retrieval-Augmented Generation):
+    • Vector embedding & semantic search over technical spec sheets (KRT-101), fabric elasticity indexes, and brand return SOPs.
+    • Eliminates model hallucinations by grounding advice in real flat pattern cm measurements.
+- MCP (Model Context Protocol):
+    • Standardized JSON-RPC 2.0 tool orchestration layer connecting the FitBack-AI agent with 6 core enterprise backends:
+      1. CRM (Customer Profile & consent)
+      2. OMS (Order Management)
+      3. Inventory (Warehouse stock checks)
+      4. Logistics (BlueDart reverse pickup booking)
+      5. Telemetry (Granular fit complaint logging)
+      6. Sizing Engine (Human-approved size chart drafting)
+
+6. RESPONSIBLE AI & ETHICAL COMMITMENTS
+- Zero Body Shaming: Explains fit deltas strictly in terms of garment pattern ease, never customer body weight or shape.
+- Privacy & Consent: Optional measurements, explicit consent toggles for data storage and purchase history indexing.
+- Human-in-the-Loop Governance: Machine learning detects 70% bust tightness patterns and proposes +2cm corrections; NO size chart is ever committed to production without explicit human authorization.
+- Financial Accuracy: Illustrative calculations strictly separate gross order value retained (revenue) from net profit.
+
+7. FILE MANIFEST
+- FitBack_AI_Narration_Script.txt: Complete 5-act verbatim narration script & scene direction.
+- FitBack_AI_Subtitles.srt: Synchronized subtitles file (40 cue points).
+- FitBack_AI_RAG_Diagram.svg / .png: 1920x1080 technical diagram of vector search pipeline.
+- FitBack_AI_MCP_Diagram.svg / .png: 1920x1080 technical diagram of enterprise tool orchestration.
+- audio/act1_pain.mp3: Act 1 Neural Voiceover (32.5s)
+- audio/act2_agent.mp3: Act 2 Neural Voiceover (42.6s)
+- audio/act3_hood.mp3: Act 3 Neural Voiceover (46.3s)
+- audio/act4_wrong.mp3: Act 4 Neural Voiceover (24.7s)
+- audio/act5_normal.mp3: Act 5 Neural Voiceover (31.7s)
+- In-App Cinema Showcase: Embedded directly in the FitBack-AI React web application at /film-showcase.
+================================================================================

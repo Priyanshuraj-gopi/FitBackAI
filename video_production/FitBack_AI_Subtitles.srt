@@ -1,0 +1,161 @@
+1
+00:00:00,500 --> 00:00:06,200
+Online fashion shopping has made beautiful ethnic wear accessible to everyone.
+
+2
+00:00:06,500 --> 00:00:11,800
+But one question still creates uncertainty: will the outfit actually fit?
+
+3
+00:00:12,200 --> 00:00:18,000
+Priya finds a beautiful kurta, selects size M, and places her order.
+
+4
+00:00:18,500 --> 00:00:23,900
+But when it arrives, the fit is uncomfortable. The shoulders and bust are too tight.
+
+5
+00:00:24,200 --> 00:00:27,500
+She requests a return.
+
+6
+00:00:28,000 --> 00:00:32,800
+For Priya, this is a disappointing experience.
+
+7
+00:00:33,000 --> 00:00:39,500
+For the business, it means additional shipping costs, reverse logistics, and inventory handling.
+
+8
+00:00:39,800 --> 00:00:44,500
+Traditional customer service reacts after the problem happens.
+
+9
+00:00:45,000 --> 00:00:52,000
+Meet FitBack-AI: an intelligent agent designed to prevent, recover, and learn from returns.
+
+10
+00:00:52,500 --> 00:00:58,000
+Before purchase, FitBack-AI understands customer fit preferences and retrieves product size charts.
+
+11
+00:00:58,300 --> 00:01:04,500
+It compares available measurements and provides an explainable recommendation.
+
+12
+00:01:05,000 --> 00:01:09,800
+The customer remains completely free to choose another size.
+
+13
+00:01:10,200 --> 00:01:15,500
+If a fit problem occurs, FitBack-AI helps recover the customer experience.
+
+14
+00:01:16,000 --> 00:01:21,500
+It checks the order, verifies policy, checks inventory, and offers an eligible exchange.
+
+15
+00:01:22,000 --> 00:01:27,500
+With the customer's permission, it initiates the appropriate workflow.
+
+16
+00:01:28,000 --> 00:01:33,800
+The objective is to retain the sale while strictly respecting customer choice.
+
+17
+00:01:34,200 --> 00:01:40,500
+Finally, FitBack-AI learns from every return, preparing insights for the quality team.
+
+18
+00:01:45,000 --> 00:01:50,500
+FitBack-AI uses Retrieval-Augmented Generation, also known as RAG.
+
+19
+00:01:51,000 --> 00:01:57,500
+RAG allows the agent to search the brand's own documents before generating an answer.
+
+20
+00:01:58,000 --> 00:02:04,500
+These include product catalogues, size charts, fabric guides, and return policies.
+
+21
+00:02:05,000 --> 00:02:11,500
+When Priya asks which size to choose, the agent retrieves grounded product data.
+
+22
+00:02:12,000 --> 00:02:17,500
+This significantly reduces reliance on unsupported AI guesses.
+
+23
+00:02:18,000 --> 00:02:24,500
+Through MCP, the agent connects directly with enterprise business systems.
+
+24
+00:02:25,000 --> 00:02:31,000
+It checks orders, queries warehouse inventory, and initiates permitted workflows.
+
+25
+00:02:31,500 --> 00:02:37,500
+This is what makes it an actionable AI agent rather than simply a chatbot.
+
+26
+00:02:45,000 --> 00:02:50,500
+But AI systems are not perfect.
+
+27
+00:02:51,000 --> 00:02:57,500
+While analysing return records, the agent identifies upper-body fit complaints.
+
+28
+00:02:58,000 --> 00:03:04,000
+However, it makes an incorrect assumption about flat garment measurements.
+
+29
+00:03:04,500 --> 00:03:10,500
+A human quality manager reviews the underlying data and catches the mistake.
+
+30
+00:03:11,000 --> 00:03:16,500
+The proposed change is rejected and prevented from publishing to production.
+
+31
+00:03:17,000 --> 00:03:22,800
+FitBack-AI supports human decisions. It does not replace human accountability.
+
+32
+00:03:23,000 --> 00:03:28,500
+AI assists. Humans remain in control.
+
+33
+00:03:30,000 --> 00:03:36,500
+With FitBack-AI, customers make informed size decisions with greater confidence.
+
+34
+00:03:37,000 --> 00:03:42,500
+Consider an illustrative scenario with 1,000 monthly orders and 100 size returns.
+
+35
+00:03:43,000 --> 00:03:49,500
+If 30 returns are prevented at ₹250 per return, the business saves ₹7,500.
+
+36
+00:03:50,000 --> 00:03:57,000
+If 20 exchanges retain orders at ₹1,500 AOV, that represents ₹30,000 gross order value retained.
+
+37
+00:03:57,500 --> 00:04:03,500
+These figures are illustrative estimates, not measured historical results.
+
+38
+00:04:04,000 --> 00:04:10,000
+The real power is continuous learning: Prevent the wrong fit, Recover the sale, and Learn from every return.
+
+39
+00:04:10,500 --> 00:04:25,000
+FitBack-AI: PREVENT. RECOVER. LEARN.
+Group 4 — Customer Service | College AI Studio Showcase
+
+40
+00:04:25,500 --> 00:04:40,000
+Production Tools: Antigravity IDE, Microsoft Edge Neural TTS, React 19, Recharts, FFmpeg.
+All customer data and measurements are fictional.

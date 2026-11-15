@@ -12,6 +12,7 @@ import { FitAssistantPage } from './components/customer/FitAssistantPage';
 import { CartView } from './components/customer/CartView';
 import { OrdersPage } from './components/customer/OrdersPage';
 import { FitWiseAIChatDrawer } from './components/ai/FitWiseAIChatDrawer';
+import { FilmShowcasePage } from './components/video/FilmShowcasePage';
 
 import { AdminLayout } from './components/admin/AdminLayout';
 import { OverviewTab } from './components/admin/tabs/OverviewTab';
@@ -67,6 +68,8 @@ const AppContent: React.FC = () => {
         {customerTab === 'cart' && <CartView />}
 
         {customerTab === 'orders' && <OrdersPage />}
+
+        {customerTab === 'film' && <FilmShowcasePage />}
       </main>
 
       <Footer />

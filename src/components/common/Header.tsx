@@ -140,6 +140,17 @@ export const Header: React.FC = () => {
               >
                 Fit Profile
               </button>
+              <button
+                onClick={() => setCustomerTab('film')}
+                className={`transition-colors py-1 px-2.5 rounded-full text-xs flex items-center gap-1.5 ${
+                  customerTab === 'film'
+                    ? 'bg-brand-charcoal text-white font-bold'
+                    : 'bg-brand-terracotta/10 text-brand-terracotta font-semibold hover:bg-brand-terracotta hover:text-white'
+                }`}
+              >
+                <span className="w-2 h-2 rounded-full bg-brand-terracotta animate-pulse" />
+                <span>Film Showcase</span>
+              </button>
             </nav>
           )}
         </div>
